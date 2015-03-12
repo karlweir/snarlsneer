@@ -1,1 +1,151 @@
 /* Style Sheet */
+
+* {
+      margin: 0;
+      color: #1d0200;
+      padding: 0;
+    }
+
+    .gradient {
+      height: 60em;
+      width: 100%;
+
+      background-image: linear-gradient( #facd8e 0%, transparent 70%, white 90%),
+                        url('images/retro-scooba.jpg');
+
+      background-repeat: no-repeat;
+      background-size: cover;
+
+
+      
+    }
+
+    .main-heading {
+      padding-top: 50px;
+
+      font-family: 'Lobster', cursive;
+
+
+      text-align: center;
+      font-size: 8em;
+      /*text-shadow: 2px 2px 1px #222;*/
+      line-height: 1;
+      letter-spacing: 40px;
+    }
+
+    .title-heading {
+
+      text-align: center;
+      padding-top: 30px;
+      font-family: 'Montserrat', sans-serif;
+      letter-spacing: 2px;
+
+    }
+
+    .chevron {
+      height: 100px;
+      margin: 0 auto;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      padding-top: 150px;
+    }
+
+    .navigation {
+
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.5em;
+      padding-top: 90px;
+    }
+
+    .links li {
+      display: inline;
+      margin: 20px;
+      color: white;
+
+    }
+
+    /*Navigation Link Decoration*/
+
+    .links a:link {
+      text-decoration: none;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .links a:visited {
+      text-decoration: none;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .links a:hover {
+      text-decoration: none;
+      background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    .main-content {
+      display: block;
+      margin: 0 auto;
+      max-width: 800px;
+
+    }
+
+    .blog-post-heading {
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      font-size: 1.5em;
+    }
+
+    .blog-post-body {
+      font-family: 'Montserrat', sans-serif;
+      text-align: justify;
+      padding-top: 20px;
+    }
+
+    .footer {
+      height: 150px;
+      width: 100%;
+      margin-top: 100px;
+      background-image: linear-gradient( #163b6b 0%, #819ec4 90%); 
+                        
+      
+      border-top: solid 4px black;
+      text-align: center;
+    }
+
+    .social-icons {
+      margin: 35px 10px 0 10px;
+      width: 40px;
+      border-radius: 20px;
+
+    }
+
+    .social-links-list li {
+      display: inline;
+    }
+
+    /*styling for footer links
+    .social-links-list a:link {
+      
+    }
+
+    .social-links-list a:visited {
+      
+    }
+
+    .social-links-list a:hover {
+      
+    }*/
+
+
+    .footer-copyright {
+      padding-top: 20px;
+      text-align: center;
+      float: bottom;
+      font-size: 0.8em;
+
+    }
+
+/*Media Queries*/
+
+@media ()
